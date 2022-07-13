@@ -56,5 +56,28 @@ main {
 }
 
 
+@media screen and (max-width: 760px) {
+    body {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
 
+    main {
+        min-height: 60vh;
+    }
+
+    aside {
+        height: auto;
+        width: 100%;
+    }
+
+    aside ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .special {
+        display: none;
+    }
+}
 
