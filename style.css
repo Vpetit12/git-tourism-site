@@ -37,16 +37,16 @@ body {
     min-height: 100vh;
 }
 
+.logo {
+    color: red;
+}
+
 .special {
     background-color: blue;
     color: white;
     display: block;
     text-align: center;
     padding: 1rem;
-}
-
-.logo {
-    color: red;
 }
 
 main {
